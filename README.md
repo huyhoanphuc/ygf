@@ -557,7 +557,7 @@ end
                     HeightOffset = 0,
                     CanKill = true,
                     KillRange = 320,
-                    BreakLights = true,
+                    BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
@@ -810,23 +810,23 @@ end
     function TraumaSpawn()
         while true do 
         
-            wait(100)
+            wait(20)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
             local Trauma = Creator.createEntity({
                 CustomName = "Trauma", -- Custom name of your entity
                 Model = "11546178972", -- Can be GitHub file or rbxassetid
-                Speed = 600, -- Percentage, 100 = default Rush speed
-                DelayTime = 5,
+                Speed = 300, -- Percentage, 100 = default Rush speed
+                DelayTime = 7,
             KillRange=80,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
-            BreakLights = true,
-                BackwardsMovement = true,
+            BreakLights = false
+                BackwardsMovement = false,
                 FlickerLights = {
                     true, -- Enabled/Disabled
-                    5, -- Time (seconds)
+                    10, -- Time (seconds)
                 },
                 Cycles = {
                     Min = 1,
