@@ -822,7 +822,7 @@ end
             KillRange=80,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
-            BreakLights = false
+            BreakLights = false,
                 BackwardsMovement = false,
                 FlickerLights = {
                     true, -- Enabled/Disabled
