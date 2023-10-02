@@ -639,8 +639,8 @@ end
                 5, -- Time (seconds)
             },
             Cycles = {
-                Min = 4,
-                Max = 4,
+                Min = 0,
+                Max = 0,
                 WaitTime = 2,
             },
             CamShake = {
