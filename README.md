@@ -625,14 +625,14 @@ end
         until game.Workspace.CurrentRooms[game:GetService("ReplicatedStorage").GameData.LatestRoom.Value].Assets:FindFirstChild("Wardrobe")
         -- tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(1), {Contrast = 0.45}):Play()
         local ZoO = Creator.createEntity({
-            CustomName = "200", -- Custom name of your entity
+            CustomName = "A-200", -- Custom name of your entity
             Model = "https://github.com/Isth4t/DoorsModels/blob/main/200Moving.rbxm?raw=true", -- Can be GitHub file or rbxassetid
             Speed = 700, -- Percentage, 100 = default Rush speed
             DelayTime = 10, -- Time before starting cycles (seconds)
-            KillRange=20,
+            KillRange= 8,
             HeightOffset = 0,
             CanKill = true,
-            BreakLights = true,
+            BreakLights = false,
             BackwardsMovement = true,
             FlickerLights = {
                 true, -- Enabled
