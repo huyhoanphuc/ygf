@@ -5,7 +5,7 @@ local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 Achievements.Get({
     Title = "DOORS MODE Extreme",
     Desc = "EXECUTE Yes No way",
-    Reason = 'IS TO UPDATE MODE V2 Oh No 😨😨😨',
+    Reason = 'IS TO UPDATE MODE V2 Oh No ðŸ˜¨ðŸ˜¨ðŸ˜¨',
     Image = "11867753039/meme-hamster-xd",
 })
 
@@ -112,8 +112,6 @@ Test.Name = "Extacuted"
 Test.Parent = game:GetService("ReplicatedStorage")
 Test = 1
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd/DoorSuff/main/OtherSuff/Sprint"))()
-
 local SelfModules = {
     Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))(),
 }
@@ -142,7 +140,7 @@ if not valid2 then
 end
 
 local fileName = ModName.."Save's.txt"
-local filePath = foldername.. ";".. fileName
+local filePath = foldername.. "/".. fileName
 local valid = isfile(filePath)
 
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd/Models/main/RegularVynixu's%20Achievement%20Modifyer"))()
@@ -373,7 +371,7 @@ function Depth()
     pcall(function()
         Be=true
 
-        wait(30)
+        wait(20)
         wait(10)
         local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -518,7 +516,7 @@ end
                             },
                         },
                     },
-                    CustomDialog = {"¡¡ THIS SMILE IS LIKE ABMUSH !!", "Hide and don't Smile", "Don't get Tricked"}, -- Custom death message (can be as long as you want)
+                    CustomDialog = {"Â¡Â¡ THIS SMILE IS LIKE ABMUSH !!", "Hide and don't Smile", "Don't get Tricked"}, -- Custom death message (can be as long as you want)
                 })
 
                 -----[[ Advanced ]]-----
@@ -1044,8 +1042,8 @@ end
 
 
 pcall(function()
-local DepthPas = coroutine.wrap(Depth)
-DepthPas()
+local LolPas = coroutine.wrap(Lol)
+LolPas()
 end)
 pcall(function()
     local TraumaPas = coroutine.wrap(TraumaSpawn)   
