@@ -565,9 +565,9 @@ end
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 4000, -- Percentage, 100 = default Rush speed
                     DelayTime = 13, -- Time before starting cycles (seconds)
-                    HeightOffset = 0,
+                    HeightOffset = 2,
                     CanKill = true,
-                    KillRange = 320,
+                    KillRange = 3000,
                     BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
