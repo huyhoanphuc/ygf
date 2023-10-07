@@ -371,7 +371,7 @@ function Depth()
     pcall(function()
         Be=true
 
-        wait(20)
+        wait(30)
         wait(10)
         local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
