@@ -396,7 +396,7 @@ function Depth()
             },
             Cycles = {
                 Min = 2,
-                Max = 2,
+                Max = 1,
                 WaitTime = 2,
             },
             CamShake = {
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(120)
+            wait(140)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
