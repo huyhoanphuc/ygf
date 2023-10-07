@@ -1042,8 +1042,8 @@ end
 
 
 pcall(function()
-local LolPas = coroutine.wrap(Lol)
-LolPas()
+local DepthPas = coroutine.wrap(Depth)
+DepthPas()
 end)
 pcall(function()
     local TraumaPas = coroutine.wrap(TraumaSpawn)   
