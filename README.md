@@ -562,7 +562,7 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 4000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 13, -- Time before starting cycles (seconds)
+                    DelayTime = 4, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 3000,
@@ -570,7 +570,7 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        11, -- Time (seconds)
+                        3, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
