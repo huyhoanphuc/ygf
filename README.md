@@ -574,8 +574,8 @@ end
                     },
                     Cycles = {
                         Min = 1,
-                        Max = 10,
-                        WaitTime = 1,
+                        Max = 4,
+                        WaitTime = 0.3,
                     },
                     CamShake = {
                         true, -- Enabled/Disabled
@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(60)
+        while true do wait(80)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
