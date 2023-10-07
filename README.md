@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(80)
+            wait(120)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
