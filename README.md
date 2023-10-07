@@ -839,7 +839,7 @@ end
                 },
                 Cycles = {
                     Min = 1,
-                    Max = 3,
+                    Max = 1,
                     WaitTime = 2,
                 },
                 CamShake = {
