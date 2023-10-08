@@ -371,15 +371,15 @@ function Depth()
     pcall(function()
         Be=true
 
-        wait(30)
-        wait(10)
+        wait(20)
+        wait(5)
         local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
         -- Create entity
         if  game.ReplicatedStorage.GameData.LatestRoom.Value ~= 50 then
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         else
-            Wait(20)
+            Wait(10)
             end
         local Depth = Creator.createEntity({
             CustomName = "Depth", -- Custom name of your entity
@@ -562,10 +562,10 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 4, -- Time before starting cycles (seconds)
+                    DelayTime = 2, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
-                    KillRange = 3000,
+                    KillRange = 10000,
                     BreakLights = false,
                     BackwardsMovement = false,
                     FlickerLights = {
@@ -574,7 +574,7 @@ end
                     },
                     Cycles = {
                         Min = 1,
-                        Max = 4,
+                        Max = 20,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(90)
+        while true do wait(50)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
