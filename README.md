@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(80)
+        while true do wait(90)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
