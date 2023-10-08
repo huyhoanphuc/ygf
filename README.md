@@ -385,7 +385,7 @@ function Depth()
             CustomName = "Depth", -- Custom name of your entity
             Model = "11535810241", -- Can be GitHub file or rbxassetid
             Speed = 350, -- Percentage, 100 = default Rush speed
-            DelayTime = 5,
+            DelayTime = 3,
             KillRange=100,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
@@ -396,7 +396,7 @@ function Depth()
             },
             Cycles = {
                 Min = 2,
-                Max = 1,
+                Max = 2,
                 WaitTime = 2,
             },
             CamShake = {
