@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(50)
+        while true do wait(100)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(140)
+            wait(230)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1088,7 +1088,7 @@ end
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
                 -- Create entity
-                local entity2 = Creator.createEntity({
+                local entity4 = Creator.createEntity({
                     CustomName = "dreed", -- Custom name of your entity
                     Model = "12329981842", -- Can be GitHub file or rbxassetid
                     Speed = 100, -- Percentage, 100 = default Rush speed
@@ -1103,8 +1103,8 @@ end
                         1, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 2,
-                        Max = 2,
+                        Min = 1,
+                        Max = 1,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -1141,7 +1141,7 @@ end
                 })
 
                 ------------------------
-                Creator.runEntity(entity2)
+                Creator.runEntity(entity4)
                 -- Run the created entity
             end)
         end
