@@ -5,7 +5,7 @@ local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 Achievements.Get({
     Title = "DOORS MODE Extreme",
     Desc = "EXECUTE Yes No way",
-    Reason = 'IS TO UPDATE MODE V2.3 Oh No ðŸ˜¨ðŸ˜¨ðŸ˜¨',
+    Reason = 'IS TO UPDATE MODE V3 💀💀💀💀',
     Image = "11867753039/meme-hamster-xd",
 })
 
@@ -1014,6 +1014,138 @@ end
             Creator.runEntity(Trau)
         end
     end
+
+    function TrauaSpawn()
+        while true do 
+        
+            wait(100)
+            local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+            -- Create entity
+            local Traua = Creator.createEntity({
+                CustomName = "Dear God", -- Custom name of your entity
+                Model = "11393625763", -- Can be GitHub file or rbxassetid
+                Speed = 20, -- Percentage, 100 = default Rush speed
+                DelayTime = 2,
+            KillRange= 10,-- Time before starting cycles (seconds)
+            HeightOffset = 1,
+            CanKill = true,
+            BreakLights = false,
+                BackwardsMovement = false,
+                FlickerLights = {
+                    true, -- Enabled/Disabled
+                    10, -- Time (seconds)
+                },
+                Cycles = {
+                    Min = 1,
+                    Max = 1,
+                    WaitTime = 2,
+                },
+                CamShake = {
+                    true, -- Enabled/Disabled
+                    {5.5, 50, 0.5, 2}, -- Shake values (don't change if you don't know)
+                    100, -- Shake start distance (from Entity to you)
+                },
+                Jumpscare = {
+                    true, -- Enabled/Disabled
+                    {
+                        Image1 = "nil", -- Image1 url
+                        Image2 = "rbxassetid://11278624160", -- Image2 url
+                        Shake = true,
+                        Sound1 = {
+                            10483790459, -- SoundId
+                            { Volume = 0 }, -- Sound properties
+                        },
+                        Sound2 = {
+                            10483837590, -- SoundId
+                            { Volume = 1000 }, -- Sound properties
+                        },
+                        Flashing = {
+                            true, -- Enabled/Disabled
+                            Color3.fromRGB(255, 255, 255), -- Color
+                        },
+                        Tease = {
+                            true, -- Enabled/Disabled
+                            Min = 1,
+                            Max = 3,
+                        },
+                    },
+                },
+                CustomDialog = {"You died to Dear God...", "Use what you've learned from Rush and Ambush!","This Mob Randomly Spawns Theres No Patten to it"}, -- Custom death message
+            })
+
+            -----[[ Advanced ]]-----
+            ------------------------
+
+            -- Run the created entity
+            Creator.runEntity(Traua)
+        end
+    end
+
+    function VhsSanhSpawn()
+        while true do wait(200)
+            pcall(function()
+                local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+                -- Create entity
+                local entity2 = Creator.createEntity({
+                    CustomName = "dreed", -- Custom name of your entity
+                    Model = "12329981842", -- Can be GitHub file or rbxassetid
+                    Speed = 100, -- Percentage, 100 = default Rush speed
+                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    HeightOffset = 0,
+                    CanKill = true,
+                    KillRange = 50,
+                    BreakLights = false,
+                    BackwardsMovement = false,
+                    FlickerLights = {
+                        true, -- Enabled/Disabled
+                        1, -- Time (seconds)
+                    },
+                    Cycles = {
+                        Min = 2,
+                        Max = 2,
+                        WaitTime = 0,
+                    },
+                    CamShake = {
+                        true, -- Enabled/Disabled
+                        {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+                        100, -- Shake start distance (from Entity to you)
+                    },
+                    Jumpscare = {
+                        true, -- Enabled/Disabled
+                        {
+                            Image1 = "rbxassetid://11287256504", -- Image1 url
+                            Image2 = "rbxassetid://12209846418", -- Image2 url
+                            Shake = true,
+                            Sound1 = {
+                                10483790459, -- SoundId
+                                { Volume = 0.5 }, -- Sound properties
+                            },
+                            Sound2 = {
+                                10483790459, -- SoundId
+                                { Volume = 0.5 }, -- Sound properties
+                            },
+                            Flashing = {
+                                true, -- Enabled/Disabled
+                                Color3.fromRGB(255, 255, 255), -- Color
+                            },
+                            Tease = {
+                                true, -- Enabled/Disabled
+                                Min = 1,
+                                Max = 1,
+                            },
+                        },
+                    },
+                    CustomDialog = {"You died to who you call dreed...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
+                })
+
+                ------------------------
+                Creator.runEntity(entity2)
+                -- Run the created entity
+            end)
+        end
+    end
     
 
 
@@ -1064,4 +1196,11 @@ end)
 pcall(function()
 local TrauPas = coroutine.wrap(TrauSpawn)
 TrauPas()
+end)
+pcall(function()
+    local TrauaPas = coroutine.wrap(TrauaSpawn)   
+    TrauaPas()
+end)
+local VhsSanhPas = coroutine.wrap(VhsSanhSpawn)
+VhsSanhPas()
 end)
