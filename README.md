@@ -1146,6 +1146,73 @@ end
             end)
         end
     end
+
+    function TrakuSpawn()
+        while true do 
+        
+            wait(4)
+            local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+            -- Create entity
+            local Traku = Creator.createEntity({
+                CustomName = "Wh1t3", -- Custom name of your entity
+                Model = "rbxassetid://11637039767", -- Can be GitHub file or rbxassetid
+                Speed = 100, -- Percentage, 100 = default Rush speed
+                DelayTime = 2,
+            KillRange= 50,-- Time before starting cycles (seconds)
+            HeightOffset = 2,
+            CanKill = true,
+            BreakLights = false,
+                BackwardsMovement = true,
+                FlickerLights = {
+                    true, -- Enabled/Disabled
+                    2, -- Time (seconds)
+                },
+                Cycles = {
+                    Min = 2,
+                    Max = 2,
+                    WaitTime = 0,
+                },
+                CamShake = {
+                    true, -- Enabled/Disabled
+                    {5.5, 50, 0.5, 2}, -- Shake values (don't change if you don't know)
+                    100, -- Shake start distance (from Entity to you)
+                },
+                Jumpscare = {
+                    true, -- Enabled/Disabled
+                    {
+                        Image1 = " rbxassetid://0", -- Image1 url
+                        Image2 = "rbxassetid://11678966779", -- Image2 url
+                        Shake = true,
+                        Sound1 = {
+                            0, -- SoundId
+                            { Volume = 10 }, -- Sound properties
+                        },
+                        Sound2 = {
+                            5567523008, -- SoundId
+                            { Volume = 10 }, -- Sound properties
+                        },
+                        Flashing = {
+                            true, -- Enabled/Disabled
+                            Color3.fromRGB(6, 38, 135), -- Color
+                        },
+                        Tease = {
+                            true, -- Enabled/Disabled
+                            Min = 1,
+                            Max = 3,
+                        },
+                    },
+                },
+                CustomDialog = {"H̷̡̡̧̻̼̺̖̫̰̥͚̳͎̣͓͕̼̜̆͐ͅ0̷͇̦̬̟̱̣̠̼̻̱̩̲͇̥̪̙͎̩̈́̌́̈́̓̀̿̍͜Ẃ̵̛̛̏͑̔̏̿͊͐̆̋̈͐̐͘͜"}, -- Custom death message
+            })
+
+            -----[[ Advanced ]]-----
+            ------------------------
+
+            -- Run the created entity
+            Creator.runEntity(Traku)
+        end
+    end
     
 
 
@@ -1202,6 +1269,6 @@ pcall(function()
     TrauaPas()
 end)
 pcall(function()
-    local TrauaPas = coroutine.wrap(TrauaSpawn)   
-    TrauaPas()
+    local TrakuPas = coroutine.wrap(TrakuSpawn)   
+    TrakuPas()
 end)
