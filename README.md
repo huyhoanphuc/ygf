@@ -819,7 +819,7 @@ end
     function TraumaSpawn()
         while true do 
         
-            wait(100)
+            wait(130)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(230)
+            wait(160)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1018,14 +1018,14 @@ end
     function TrauaSpawn()
         while true do 
         
-            wait(100)
+            wait(200)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
             local Traua = Creator.createEntity({
                 CustomName = "Dear God", -- Custom name of your entity
                 Model = "11393625763", -- Can be GitHub file or rbxassetid
-                Speed = 20, -- Percentage, 100 = default Rush speed
+                Speed = 30, -- Percentage, 100 = default Rush speed
                 DelayTime = 2,
             KillRange= 10,-- Time before starting cycles (seconds)
             HeightOffset = 1,
@@ -1083,7 +1083,7 @@ end
     end
 
     function VhsSanhSpawn()
-        while true do wait(200)
+        while true do wait(220)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1169,7 +1169,7 @@ end
                     2, -- Time (seconds)
                 },
                 Cycles = {
-                    Min = 2,
+                    Min = 1,
                     Max = 2,
                     WaitTime = 0,
                 },
