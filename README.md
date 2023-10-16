@@ -1,11 +1,3 @@
-_G.Uses = 10000000000
-_G.Range = 100
-
-_G.OnAnything = true 
-_G.Fail = fail
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
-
 -- Achievement
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
 
@@ -1280,3 +1272,5 @@ pcall(function()
     local TrakuPas = coroutine.wrap(TrakuSpawn)   
     TrakuPas()
 end)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
