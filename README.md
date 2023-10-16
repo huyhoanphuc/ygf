@@ -5,7 +5,7 @@ local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 Achievements.Get({
     Title = "DOORS MODE Extreme",
     Desc = "EXECUTE Yes No way",
-    Reason = 'IS TO UPDATE MODE V3 💀💀💀💀',
+    Reason = 'IS TO UPDATE MODE V3.5 💀💀💀💀',
     Image = "11867753039/meme-hamster-xd",
 })
 
@@ -1271,4 +1271,30 @@ end)
 pcall(function()
     local TrakuPas = coroutine.wrap(TrakuSpawn)   
     TrakuPas()
+end)
+workspace.ChildAdded:Connect(function(seek)
+	if seek.Name == "SeekMoving" then
+		firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "I feel like im being watched...")
+		wait(0.5)
+		seek.SeekRig.Head.Eye.Decal.Texture = "rbxassetid://11523633591"
+		seek.Figure.Scream.SoundId = "rbxassetid://9113985604"
+		seek.Figure.Scream.Pitch = 0.8
+		workspace.Ambience_Seek.SoundId = "rbxassetid://9046421438"
+		seek.Figure.Scream.RollOffMaxDistance = 10000
+		seek.Figure.Scream.RollOffMinDistance = 10
+		seek.SeekRig.LeftLowerArm.Color = Color3.new(1,0,0)
+		seek.SeekRig.LeftLowerArm.Material = "Neon"
+		seek.SeekRig.RightLowerLeg.Color = Color3.new(1,0,0)
+		seek.SeekRig.RightLowerLeg.Material = "Neon"
+		seek.SeekRig.RightUpperArm.Color = Color3.new(1,0,0)
+		seek.SeekRig.RightUpperArm.Material = "Neon"
+		local eye1 = game:GetObjects("rbxassetid://11574477069")[1]
+		eye1.Parent = seek.SeekRig.Head
+		local weldingconstraint = Instance.new("WeldConstraint", seek.SeekRig.Head)
+		eye1:PivotTo(seek.SeekRig.Head.CFrame)
+		weldingconstraint.Part0 = seek.SeekRig.Head
+		weldingconstraint.Part1 = eye1.Part
+	else
+
+	end
 end)
