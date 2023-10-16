@@ -1,3 +1,11 @@
+_G.Uses = 10000000000
+_G.Range = 100
+
+_G.OnAnything = true 
+_G.Fail = fail
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+
 -- Achievement
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
 
@@ -392,10 +400,10 @@ function Depth()
             BreakLights = false,
             FlickerLights = {
                 true, -- Enabled
-                1, -- Time (seconds)
+                5, -- Time (seconds)
             },
             Cycles = {
-                Min = 2,
+                Min = 1,
                 Max = 2,
                 WaitTime = 2,
             },
@@ -562,7 +570,7 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    DelayTime = 7, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 10000,
@@ -570,7 +578,7 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        3, -- Time (seconds)
+                        10, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
