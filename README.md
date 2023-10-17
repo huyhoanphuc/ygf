@@ -1163,7 +1163,7 @@ end
             HeightOffset = 2,
             CanKill = true,
             BreakLights = false,
-                BackwardsMovement = true,
+                BackwardsMovement = false,
                 FlickerLights = {
                     true, -- Enabled/Disabled
                     2, -- Time (seconds)
