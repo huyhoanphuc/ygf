@@ -1365,3 +1365,11 @@ function ambiance()
 		wait(120)
 	end
 end
+
+_G.Uses = 3
+_G.Range = 98
+
+_G.OnAnything = true 
+_G.Fail = fail
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
