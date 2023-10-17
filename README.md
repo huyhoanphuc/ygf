@@ -385,7 +385,7 @@ function Depth()
             CustomName = "Depth", -- Custom name of your entity
             Model = "11535810241", -- Can be GitHub file or rbxassetid
             Speed = 350, -- Percentage, 100 = default Rush speed
-            DelayTime = 3,
+            DelayTime = 8,
             KillRange=100,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
@@ -396,7 +396,7 @@ function Depth()
             },
             Cycles = {
                 Min = 1,
-                Max = 2,
+                Max = 1,
                 WaitTime = 2,
             },
             CamShake = {
@@ -625,7 +625,7 @@ end
         local ZoO = Creator.createEntity({
             CustomName = "A-200", -- Custom name of your entity
             Model = "https://github.com/Isth4t/DoorsModels/blob/main/200Moving.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-            Speed = 700, -- Percentage, 100 = default Rush speed
+            Speed = 0, -- Percentage, 100 = default Rush speed
             DelayTime = 10, -- Time before starting cycles (seconds)
             KillRange= 8,
             HeightOffset = 0,
