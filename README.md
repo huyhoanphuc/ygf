@@ -1251,11 +1251,11 @@ end
                             Image2 = "rbxassetid://3413871766", -- Image2 url
                             Shake = true,
                             Sound1 = {
-                                10483790459, -- SoundId
+                                3537873683, -- SoundId
                                 { Volume = 2 }, -- Sound properties
                             },
                             Sound2 = {
-                                3537873683, -- SoundId
+                                5263560566, -- SoundId
                                 { Volume = 0.5 }, -- Sound properties
                             },
                             Flashing = {
