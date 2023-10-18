@@ -553,7 +553,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(900)
+        while true do wait(540)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -562,7 +562,7 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 7, -- Time before starting cycles (seconds)
+                    DelayTime = 10, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 10000,
@@ -570,11 +570,11 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        10, -- Time (seconds)
+                        7, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 1,
-                        Max = 20,
+                        Min = 9,
+                        Max = 9,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -1213,6 +1213,71 @@ end
             Creator.runEntity(Traku)
         end
     end
+
+    function VhsSasSpawn()
+        while true do wait(630)
+            pcall(function()
+                local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+                -- Create entity
+                local entity5 = Creator.createEntity({
+                    CustomName = "A-60", -- Custom name of your entity
+                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+                    Speed = 6000, -- Percentage, 100 = default Rush speed
+                    DelayTime = 7, -- Time before starting cycles (seconds)
+                    HeightOffset = 2,
+                    CanKill = true,
+                    KillRange = 10000,
+                    BreakLights = false,
+                    BackwardsMovement = false,
+                    FlickerLights = {
+                        true, -- Enabled/Disabled
+                        10, -- Time (seconds)
+                    },
+                    Cycles = {
+                        Min = 12,
+                        Max = 12,
+                        WaitTime = 0,
+                    },
+                    CamShake = {
+                        true, -- Enabled/Disabled
+                        {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+                        100, -- Shake start distance (from Entity to you)
+                    },
+                    Jumpscare = {
+                        true, -- Enabled/Disabled
+                        {
+                            Image1 = "rbxassetid://11131703032", -- Image1 url
+                            Image2 = "rbxassetid://3413871766", -- Image2 url
+                            Shake = true,
+                            Sound1 = {
+                                10483790459, -- SoundId
+                                { Volume = 2 }, -- Sound properties
+                            },
+                            Sound2 = {
+                                3537873683, -- SoundId
+                                { Volume = 0.5 }, -- Sound properties
+                            },
+                            Flashing = {
+                                true, -- Enabled/Disabled
+                                Color3.fromRGB(255,0,0), -- Color
+                            },
+                            Tease = {
+                                true, -- Enabled/Disabled
+                                Min = 1,
+                                Max = 1,
+                            },
+                        },
+                    },
+                    CustomDialog = {"You died to who you call A-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
+                })
+
+                ------------------------
+                Creator.runEntity(entity5)
+                -- Run the created entity
+            end)
+        end
+    end
     
 
 
@@ -1255,6 +1320,10 @@ end)
 pcall(function()
 local VhsSansPas = coroutine.wrap(VhsSansSpawn)
 VhsSansPas()
+end)
+pcall(function()
+local VhsSasPas = coroutine.wrap(VhsSasSpawn)
+VhsSasPas()
 end)
 pcall(function()
 local VhsSPas = coroutine.wrap(VhsSSpawn)
