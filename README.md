@@ -1221,7 +1221,7 @@ end
 
                 -- Create entity
                 local entity5 = Creator.createEntity({
-                    CustomName = "A-60", -- Custom name of your entity
+                    CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
                     DelayTime = 7, -- Time before starting cycles (seconds)
@@ -1269,7 +1269,7 @@ end
                             },
                         },
                     },
-                    CustomDialog = {"You died to who you call A-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
+                    CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
                 })
 
                 ------------------------
