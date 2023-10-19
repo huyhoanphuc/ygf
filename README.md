@@ -1351,9 +1351,9 @@ workspace.ChildAdded:Connect(function(seek)
 		workspace.Ambience_Seek.SoundId = "rbxassetid://9046421438"
 		seek.Figure.Scream.RollOffMaxDistance = 10000
 		seek.Figure.Scream.RollOffMinDistance = 10
-		seek.SeekRig.LeftLowerArm.Color = Color3.new(1,0,0)
+		seek.SeekRig.LeftLowerArm.Color = Color3.new(255, 255, 255)
 		seek.SeekRig.LeftLowerArm.Material = "Neon"
-		seek.SeekRig.RightLowerLeg.Color = Color3.new(1,0,0)
+		seek.SeekRig.RightLowerLeg.Color = Color3.new(255,0,0) 
 		seek.SeekRig.RightLowerLeg.Material = "Neon"
 		seek.SeekRig.RightUpperArm.Color = Color3.new(1,0,0)
 		seek.SeekRig.RightUpperArm.Material = "Neon"
