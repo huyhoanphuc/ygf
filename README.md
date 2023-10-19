@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(160)
+            wait(165)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1150,7 +1150,7 @@ end
     function TrakuSpawn()
         while true do 
         
-            wait(175)
+            wait(155)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1169,8 +1169,8 @@ end
                     2, -- Time (seconds)
                 },
                 Cycles = {
-                    Min = 2,
-                    Max = 2,
+                    Min = 1,
+                    Max = 1,
                     WaitTime = 0,
                 },
                 CamShake = {
