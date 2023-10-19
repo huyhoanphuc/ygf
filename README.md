@@ -1353,7 +1353,7 @@ workspace.ChildAdded:Connect(function(seek)
 		seek.Figure.Scream.RollOffMinDistance = 10
 		seek.SeekRig.LeftLowerArm.Color = Color3.new(1,0,0)
 		seek.SeekRig.LeftLowerArm.Material = "Neon"
-		seek.SeekRig.RightLowerLeg.Color = Color3.new(255,0,0)
+		seek.SeekRig.RightLowerLeg.Color = Color3.new(1,0,0)
 		seek.SeekRig.RightLowerLeg.Material = "Neon"
 		seek.SeekRig.RightUpperArm.Color = Color3.new(1,0,0)l
 		seek.SeekRig.RightUpperArm.Material = "Neon"
