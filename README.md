@@ -386,7 +386,7 @@ function Depth()
             Model = "11535810241", -- Can be GitHub file or rbxassetid
             Speed = 350, -- Percentage, 100 = default Rush speed
             DelayTime = 8,
-            KillRange= 50,-- Time before starting cycles (seconds)
+            KillRange=100,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
             BreakLights = false,
@@ -553,7 +553,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(435)
+        while true do wait(415)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -573,8 +573,8 @@ end
                         7, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 9,
-                        Max = 9,
+                        Min = 1,
+                        Max = 1,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(130)
+        while true do wait(100)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(140)
+            wait(130)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -960,7 +960,7 @@ end
                 Model = "12403179451", -- Can be GitHub file or rbxassetid
                 Speed = 100, -- Percentage, 100 = default Rush speed
                 DelayTime = 1.4,
-            KillRange=40,-- Time before starting cycles (seconds)
+            KillRange=80,-- Time before starting cycles (seconds)
             HeightOffset = 0,
             CanKill = true,
             BreakLights = false,
@@ -1018,7 +1018,7 @@ end
     function TrauaSpawn()
         while true do 
         
-            wait(150)
+            wait(140)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1083,7 +1083,7 @@ end
     end
 
     function VhsSanhSpawn()
-        while true do wait(220)
+        while true do wait(160)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1150,7 +1150,7 @@ end
     function TrakuSpawn()
         while true do 
         
-            wait(160)
+            wait(150)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1224,15 +1224,15 @@ end
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 6, -- Time before starting cycles (seconds)
+                    DelayTime = 7, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 100000,
                     BreakLights = true,
-                    BackwardsMoPlvement = false,
+                    BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        5p, -- Time (seconds)
+                        10, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 12,
