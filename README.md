@@ -386,7 +386,7 @@ function Depth()
             Model = "11535810241", -- Can be GitHub file or rbxassetid
             Speed = 350, -- Percentage, 100 = default Rush speed
             DelayTime = 8,
-            KillRange=50,-- Time before starting cycles (seconds)
+            KillRange= 50,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
             BreakLights = false,
@@ -1355,7 +1355,7 @@ workspace.ChildAdded:Connect(function(seek)
 		seek.SeekRig.LeftLowerArm.Material = "Neon"
 		seek.SeekRig.RightLowerLeg.Color = Color3.new(1,0,0)
 		seek.SeekRig.RightLowerLeg.Material = "Neon"
-		seek.SeekRig.RightUpperArm.Color = Color3.new(1,0,0)l
+		seek.SeekRig.RightUpperArm.Color = Color3.new(1,0,0)
 		seek.SeekRig.RightUpperArm.Material = "Neon"
 		local eye1 = game:GetObjects("rbxassetid://11574477069")[1]
 		eye1.Parent = seek.SeekRig.Head
