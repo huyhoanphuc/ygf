@@ -371,8 +371,8 @@ function Depth()
     pcall(function()
         Be=true
 
+        wait(30)
         wait(20)
-        wait(5)
         local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
         -- Create entity
@@ -827,7 +827,7 @@ end
                 CustomName = "G-95", -- Custom name of your entity
                 Model = "11546178972", -- Can be GitHub file or rbxassetid
                 Speed = 300, -- Percentage, 100 = default Rush speed
-                DelayTime = 7,
+                DelayTime = 4,
             KillRange=80,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
@@ -835,7 +835,7 @@ end
                 BackwardsMovement = false,
                 FlickerLights = {
                     true, -- Enabled/Disabled
-                    10, -- Time (seconds)
+                    5, -- Time (seconds)
                 },
                 Cycles = {
                     Min = 1,
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(130)
+            wait(132)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
