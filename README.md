@@ -386,7 +386,7 @@ function Depth()
             Model = "11535810241", -- Can be GitHub file or rbxassetid
             Speed = 350, -- Percentage, 100 = default Rush speed
             DelayTime = 8,
-            KillRange=100,-- Time before starting cycles (seconds)
+            KillRange=50,-- Time before starting cycles (seconds)
             HeightOffset = 1,
             CanKill = true,
             BreakLights = false,
@@ -553,7 +553,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(415)
+        while true do wait(435)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -573,8 +573,8 @@ end
                         7, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 1,
-                        Max = 1,
+                        Min = 9,
+                        Max = 9,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -819,7 +819,7 @@ end
     function TraumaSpawn()
         while true do 
         
-            wait(130)
+            wait(120)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(140)
+        while true do wait(130)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(165)
+            wait(140)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -960,7 +960,7 @@ end
                 Model = "12403179451", -- Can be GitHub file or rbxassetid
                 Speed = 100, -- Percentage, 100 = default Rush speed
                 DelayTime = 1.4,
-            KillRange=80,-- Time before starting cycles (seconds)
+            KillRange=40,-- Time before starting cycles (seconds)
             HeightOffset = 0,
             CanKill = true,
             BreakLights = false,
@@ -1018,7 +1018,7 @@ end
     function TrauaSpawn()
         while true do 
         
-            wait(230)
+            wait(150)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1150,7 +1150,7 @@ end
     function TrakuSpawn()
         while true do 
         
-            wait(155)
+            wait(160)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1215,7 +1215,7 @@ end
     end
 
     function VhsSasSpawn()
-        while true do wait(430)
+        while true do wait(630)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1224,19 +1224,19 @@ end
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 7, -- Time before starting cycles (seconds)
+                    DelayTime = 6, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 100000,
                     BreakLights = true,
-                    BackwardsMovement = false,
+                    BackwardsMoPlvement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        10, -- Time (seconds)
+                        5p, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 2,
-                        Max = 2,
+                        Min = 12,
+                        Max = 12,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -1353,9 +1353,9 @@ workspace.ChildAdded:Connect(function(seek)
 		seek.Figure.Scream.RollOffMinDistance = 10
 		seek.SeekRig.LeftLowerArm.Color = Color3.new(1,0,0)
 		seek.SeekRig.LeftLowerArm.Material = "Neon"
-		seek.SeekRig.RightLowerLeg.Color = Color3.new(1,0,0)
+		seek.SeekRig.RightLowerLeg.Color = Color3.new(255,0,0)
 		seek.SeekRig.RightLowerLeg.Material = "Neon"
-		seek.SeekRig.RightUpperArm.Color = Color3.new(1,0,0)
+		seek.SeekRig.RightUpperArm.Color = Color3.new(1,0,0)l
 		seek.SeekRig.RightUpperArm.Material = "Neon"
 		local eye1 = game:GetObjects("rbxassetid://11574477069")[1]
 		eye1.Parent = seek.SeekRig.Head
