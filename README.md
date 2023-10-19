@@ -553,7 +553,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(540)
+        while true do wait(415)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -562,7 +562,7 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 10, -- Time before starting cycles (seconds)
+                    DelayTime = 8, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 10000,
@@ -573,8 +573,8 @@ end
                         7, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 9,
-                        Max = 9,
+                        Min = 1,
+                        Max = 1,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -1215,7 +1215,7 @@ end
     end
 
     function VhsSasSpawn()
-        while true do wait(630)
+        while true do wait(430)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1228,15 +1228,15 @@ end
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 100000,
-                    BreakLights = false,
+                    BreakLights = true,
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
                         10, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 12,
-                        Max = 12,
+                        Min = 2,
+                        Max = 2,
                         WaitTime = 0,
                     },
                     CamShake = {
