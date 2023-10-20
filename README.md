@@ -553,7 +553,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(415)
+        while true do wait(615)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -819,7 +819,7 @@ end
     function TraumaSpawn()
         while true do 
         
-            wait(120)
+            wait(200)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(100)
+        while true do wait(150)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(132)
+            wait(302)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1018,7 +1018,7 @@ end
     function TrauaSpawn()
         while true do 
         
-            wait(200)
+            wait(470)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1215,7 +1215,7 @@ end
     end
 
     function VhsSasSpawn()
-        while true do wait(630)
+        while true do wait(1030)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
