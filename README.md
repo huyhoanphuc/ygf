@@ -1368,6 +1368,8 @@ workspace.ChildAdded:Connect(function(seek)
 	end
 end)
 
+workspace.Ambience_Figure.SoundId = "rbxassetid://6385111188"
+
 local CF = CFrame.new
 local nicefrane = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 local sussyroom = game:GetObjects("rbxassetid://11626479968")[1]
