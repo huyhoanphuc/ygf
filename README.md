@@ -1348,7 +1348,7 @@ workspace.ChildAdded:Connect(function(seek)
 		seek.SeekRig.Head.Eye.Decal.Texture = "rbxassetid://11523633591"
 		seek.Figure.Scream.SoundId = "rbxassetid://9113985604"
 		seek.Figure.Scream.Pitch = 0.8
-		workspace.Ambience_eek.SoundId = "rbxassetid://9046421438"
+		workspace.Ambience_Seek.SoundId = "rbxassetid://13892950528 "
 		seek.Figure.Scream.RollOffMaxDistance = 10000
 		seek.Figure.Scream.RollOffMinDistance = 10
 		seek.SeekRig.LeftLowerArm.Color = Color3.new(1,0,0)
