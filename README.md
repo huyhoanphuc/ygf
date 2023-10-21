@@ -131,8 +131,8 @@ local SelfModules = {
 
 
 
-local ModName = "HardCore"
-local foldername = "AchievementsSaves   By Muhammadgames,Helped by RegularVynixu"
+local ModName = "Extremes Mode"
+local foldername = "AchievementsSaves   By Primes_A-60"
 local Slipt = string.split(foldername,"|")
 local valid2 = isfolder(foldername)
 if not valid2 then
