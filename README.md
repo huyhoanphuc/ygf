@@ -553,7 +553,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(5)
+        while true do wait(615)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
