@@ -5,7 +5,7 @@ local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 Achievements.Get({
     Title = "DOORS MODE Extreme",
     Desc = "EXECUTE Yes No way",
-    Reason = 'IS TO UPDATE MODE V3.8 OMGG!!',
+    Reason = 'IS TO UPDATE MODE V3.9 OMGG!!',
     Image = "11867753039/meme-hamster-xd",
 })
 
@@ -371,8 +371,8 @@ function Depth()
     pcall(function()
         Be=true
 
-        wait(30)
         wait(20)
+        wait(30)
         local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
         -- Create entity
@@ -579,7 +579,7 @@ end
                     },
                     CamShake = {
                         true, -- Enabled/Disabled
-                        {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+                        {200.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
                         100, -- Shake start distance (from Entity to you)
                     },
                     Jumpscare = {
@@ -884,7 +884,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(150)
+        while true do wait(40)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -951,7 +951,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(302)
+            wait(100)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1243,7 +1243,7 @@ end
                     },
                     CamShake = {
                         true, -- Enabled/Disabled
-                        {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+                        {200.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
                         100, -- Shake start distance (from Entity to you)
                     },
                     Jumpscare = {
