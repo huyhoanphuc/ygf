@@ -1101,7 +1101,7 @@ end
                 BackwardsMovement = false,
                 FlickerLights = {
                     true, -- Enabled/Disabled
-                    2, -- Time (seconds)
+                    0, -- Time (seconds)
                 },
                 Cycles = {
                     Min = 1,
@@ -1168,7 +1168,7 @@ end
                 BackwardsMovement = false,
                 FlickerLights = {
                     true, -- Enabled/Disabled
-                    2, -- Time (seconds)
+                    0, -- Time (seconds)
                 },
                 Cycles = {
                     Min = 1,
