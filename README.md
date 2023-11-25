@@ -872,7 +872,7 @@ end
                         },
                     },
                 },
-                CustomDialog = {"You died to G-95...", "Use what you've learned from Rush and Ambush!","This Mob Randomly Spawns Theres No Patten to it"}, -- Custom death message
+                CustomDialog = {"You died to Smiler...", "Use what you've learned from Rush and Ambush!","This Mob Randomly Spawns Theres No Patten to it"}, -- Custom death message
             })
 
             -----[[ Advanced ]]-----
