@@ -5,7 +5,7 @@ local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 Achievements.Get({
     Title = "DOORS MODE Extreme",
     Desc = "EXECUTE Yes No way",
-    Reason = 'IS TO UPDATE MODE V3.9 OMGG!!',
+    Reason = 'IS TO UPDATE MODE V3.9.1 OMGG!!',
     Image = "11867753039/meme-hamster-xd",
 })
 
@@ -819,13 +819,13 @@ end
     function TraumaSpawn()
         while true do 
         
-            wait(200)
+            wait(1)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
             local Trauma = Creator.createEntity({
-                CustomName = "G-95", -- Custom name of your entity
-                Model = "11546178972", -- Can be GitHub file or rbxassetid
+                CustomName = "Smiler", -- Custom name of your entity
+                Model = "12103641132 ", -- Can be GitHub file or rbxassetid
                 Speed = 300, -- Percentage, 100 = default Rush speed
                 DelayTime = 4,
             KillRange=80,-- Time before starting cycles (seconds)
@@ -838,9 +838,9 @@ end
                     5, -- Time (seconds)
                 },
                 Cycles = {
-                    Min = 1,
-                    Max = 1,
-                    WaitTime = 2,
+                    Min = 2,
+                    Max = 2,
+                    WaitTime = 0,
                 },
                 CamShake = {
                     true, -- Enabled/Disabled
@@ -858,8 +858,8 @@ end
                             { Volume = 0 }, -- Sound properties
                         },
                         Sound2 = {
-                            10483837590, -- SoundId
-                            { Volume = 1000 }, -- Sound properties
+                            5263560566, -- SoundId
+                            { Volume = 0.5 }, -- Sound properties
                         },
                         Flashing = {
                             true, -- Enabled/Disabled
