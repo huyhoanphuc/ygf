@@ -5,9 +5,11 @@ local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 Achievements.Get({
     Title = "DOORS MODE Extreme",
     Desc = "EXECUTE Yes No way",
-    Reason = 'IS TO UPDATE MODE V3.9.1 OMGG!!',
+    Reason = 'IS TO UPDATE MODE V4.0.0 OMGG!!',
     Image = "11867753039/meme-hamster-xd",
 })
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanphuc/autorooms/main/README.md", true))()
 
 --[=[
 @class txt
@@ -553,7 +555,7 @@ end
 end
 
     function VhsSansSpawn()
-        while true do wait(615)
+        while true do wait(120)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -562,7 +564,7 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 8, -- Time before starting cycles (seconds)
+                    DelayTime = 4, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 10000,
@@ -570,7 +572,7 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        7, -- Time (seconds)
+                        2, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
@@ -1217,7 +1219,7 @@ end
     end
 
     function VhsSasSpawn()
-        while true do wait(1030)
+        while true do wait(130)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1226,7 +1228,7 @@ end
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 7, -- Time before starting cycles (seconds)
+                    DelayTime = 2, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 100000,
@@ -1234,11 +1236,11 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        10, -- Time (seconds)
+                        1, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 12,
-                        Max = 12,
+                        Min = 1,
+                        Max = 1,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -1280,7 +1282,136 @@ end
             end)
         end
     end
-    
+
+    function VhsSaisSpawn()
+        while true do wait(140)
+            pcall(function()
+                local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+                -- Create entity
+                local entity6 = Creator.createEntity({
+                    CustomName = "Primes A-60", -- Custom name of your entity
+                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+                    Speed = 10000, -- Percentage, 100 = default Rush speed
+                    DelayTime = 1, -- Time before starting cycles (seconds)
+                    HeightOffset = 4,
+                    CanKill = true,
+                    KillRange = 100000,
+                    BreakLights = true,
+                    BackwardsMovement = false,
+                    FlickerLights = {
+                        true, -- Enabled/Disabled
+                        1, -- Time (seconds)
+                    },
+                    Cycles = {
+                        Min = 1,
+                        Max = 1,
+                        WaitTime = 0,
+                    },
+                    CamShake = {
+                        true, -- Enabled/Disabled
+                        {300.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+                        100, -- Shake start distance (from Entity to you)
+                    },
+                    Jumpscare = {
+                        true, -- Enabled/Disabled
+                        {
+                            Image1 = "rbxassetid://11131703032", -- Image1 url
+                            Image2 = "rbxassetid://3413871766", -- Image2 url
+                            Shake = true,
+                            Sound1 = {
+                                3537873683, -- SoundId
+                                { Volume = 2 }, -- Sound properties
+                            },
+                            Sound2 = {
+                                5263560566, -- SoundId
+                                { Volume = 0.5 }, -- Sound properties
+                            },
+                            Flashing = {
+                                true, -- Enabled/Disabled
+                                Color3.fromRGB(255,0,0), -- Color
+                            },
+                            Tease = {
+                                true, -- Enabled/Disabled
+                                Min = 1,
+                                Max = 1,
+                            },
+                        },
+                    },
+                    CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
+                })
+
+                ------------------------
+                Creator.runEntity(entity6)
+                -- Run the created entity
+            end)
+        end
+    end
+
+    function VhsSiasSpawn()
+        while true do wait(130)
+            pcall(function()
+                local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
+
+                -- Create entity
+                local entity7 = Creator.createEntity({
+                    CustomName = "Primes A-60", -- Custom name of your entity
+                    Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+                    Speed = 60000, -- Percentage, 100 = default Rush speed
+                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    HeightOffset = 4,
+                    CanKill = true,
+                    KillRange = 100000,
+                    BreakLights = true,
+                    BackwardsMovement = false,
+                    FlickerLights = {
+                        true, -- Enabled/Disabled
+                        1, -- Time (seconds)
+                    },
+                    Cycles = {
+                        Min = 1,
+                        Max = 1,
+                        WaitTime = 0,
+                    },
+                    CamShake = {
+                        true, -- Enabled/Disabled
+                        {400.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+                        100, -- Shake start distance (from Entity to you)
+                    },
+                    Jumpscare = {
+                        true, -- Enabled/Disabled
+                        {
+                            Image1 = "rbxassetid://11131703032", -- Image1 url
+                            Image2 = "rbxassetid://3413871766", -- Image2 url
+                            Shake = true,
+                            Sound1 = {
+                                3537873683, -- SoundId
+                                { Volume = 2 }, -- Sound properties
+                            },
+                            Sound2 = {
+                                5263560566, -- SoundId
+                                { Volume = 0.5 }, -- Sound properties
+                            },
+                            Flashing = {
+                                true, -- Enabled/Disabled
+                                Color3.fromRGB(255,0,0), -- Color
+                            },
+                            Tease = {
+                                true, -- Enabled/Disabled
+                                Min = 1,
+                                Max = 1,
+                            },
+                        },
+                    },
+                    CustomDialog = {"You died to who you call PrimesA-60...", "Try your best to out-run him.", "I really don't have nothing else", "Just try your best to Hide when you can."}, -- Custom death message
+                })
+
+                ------------------------
+                Creator.runEntity(entity7)
+                -- Run the created entity
+            end)
+        end
+    end
 
 
 
@@ -1326,6 +1457,14 @@ end)
 pcall(function()
 local VhsSasPas = coroutine.wrap(VhsSasSpawn)
 VhsSasPas()
+end)
+pcall(function()
+local VhsSaisPas = coroutine.wrap(VhsSaisSpawn)
+VhsSaisPas()
+end)
+pcall(function()
+local VhsSiasPas = coroutine.wrap(VhsSiasSpawn)
+VhsSiasPas()
 end)
 pcall(function()
 local VhsSanhPas = coroutine.wrap(VhsSanhSpawn)
