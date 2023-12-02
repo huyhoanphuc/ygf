@@ -564,7 +564,7 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "12797548771", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 4, -- Time before starting cycles (seconds)
+                    DelayTime = 0.1, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 10000,
@@ -572,7 +572,7 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        2, -- Time (seconds)
+                        0.1, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
@@ -1228,7 +1228,7 @@ end
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    DelayTime = 0.1, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 100000,
@@ -1236,7 +1236,7 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        1, -- Time (seconds)
+                        0.1, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
@@ -1294,14 +1294,14 @@ end
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 10000, -- Percentage, 100 = default Rush speed
                     DelayTime = 1, -- Time before starting cycles (seconds)
-                    HeightOffset = 4,
+                    HeightOffset = 0.1,
                     CanKill = true,
                     KillRange = 100000,
                     BreakLights = true,
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        1, -- Time (seconds)
+                        0.1, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
@@ -1358,7 +1358,7 @@ end
                     CustomName = "Primes A-60", -- Custom name of your entity
                     Model = "https://github.com/Johnny39871/assets/blob/main/A-60%20refined.rbxm?raw=true", -- Can be GitHub file or rbxassetid
                     Speed = 60000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    DelayTime = 0.1, -- Time before starting cycles (seconds)
                     HeightOffset = 4,
                     CanKill = true,
                     KillRange = 100000,
@@ -1366,7 +1366,7 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        1, -- Time (seconds)
+                        0.1, -- Time (seconds)
                     },
                     Cycles = {
                         Min = 1,
