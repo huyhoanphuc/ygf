@@ -562,9 +562,9 @@ end
                 -- Create entity
                 local entity2 = Creator.createEntity({
                     CustomName = "A-60", -- Custom name of your entity
-                    Model = "12797548771", -- Can be GitHub file or rbxassetid
+                    Model = "15089669896 ", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 0.1, -- Time before starting cycles (seconds)
+                    DelayTime = 2, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 10000,
