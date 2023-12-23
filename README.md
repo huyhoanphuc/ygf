@@ -575,8 +575,8 @@ end
                         0.1, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 1,
-                        Max = 1,
+                        Min = 4,
+                        Max = 4,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -1219,7 +1219,7 @@ end
     end
 
     function VhsSasSpawn()
-        while true do wait(130)
+        while true do wait(340)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1284,7 +1284,7 @@ end
     end
 
     function VhsSaisSpawn()
-        while true do wait(140)
+        while true do wait(230)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1349,7 +1349,7 @@ end
     end
 
     function VhsSiasSpawn()
-        while true do wait(150)
+        while true do wait(400)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
