@@ -564,7 +564,7 @@ end
                     CustomName = "A-60", -- Custom name of your entity
                     Model = "15089669896 ", -- Can be GitHub file or rbxassetid
                     Speed = 6000, -- Percentage, 100 = default Rush speed
-                    DelayTime = 2, -- Time before starting cycles (seconds)
+                    DelayTime = 7, -- Time before starting cycles (seconds)
                     HeightOffset = 2,
                     CanKill = true,
                     KillRange = 10000,
@@ -572,11 +572,11 @@ end
                     BackwardsMovement = false,
                     FlickerLights = {
                         true, -- Enabled/Disabled
-                        0.1, -- Time (seconds)
+                        30, -- Time (seconds)
                     },
                     Cycles = {
-                        Min = 4,
-                        Max = 4,
+                        Min = 15,
+                        Max = 15,
                         WaitTime = 0,
                     },
                     CamShake = {
@@ -821,7 +821,7 @@ end
     function TraumaSpawn()
         while true do 
         
-            wait(200)
+            wait(600)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -886,7 +886,7 @@ end
     end
     
     function VhsSSpawn()
-        while true do wait(40)
+        while true do wait(400)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -953,7 +953,7 @@ end
     function TrauSpawn()
         while true do 
         
-            wait(100)
+            wait(700)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1154,7 +1154,7 @@ end
     function TrakuSpawn()
         while true do 
         
-            wait(200)
+            wait(250)
             local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
             -- Create entity
@@ -1219,7 +1219,7 @@ end
     end
 
     function VhsSasSpawn()
-        while true do wait(340)
+        while true do wait(740)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1284,7 +1284,7 @@ end
     end
 
     function VhsSaisSpawn()
-        while true do wait(230)
+        while true do wait(930)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
@@ -1349,7 +1349,7 @@ end
     end
 
     function VhsSiasSpawn()
-        while true do wait(400)
+        while true do wait(1200)
             pcall(function()
                 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
