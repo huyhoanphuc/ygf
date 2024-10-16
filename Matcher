@@ -147,6 +147,63 @@ entity.Debug.OnEntityStartMoving = function()
     game.workspace.Matcher.RushNew.Anchored = true
     wait(1)
     game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
+    game.workspace.Matcher.RushNew.Anchored = true
+    wait(1)
     game.workspace.Matcher:Destroy()
     wait()
   loadstring(game:HttpGet("https://pastefy.app/3RdwG7dF/raw"))()
