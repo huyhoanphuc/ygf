@@ -11,7 +11,7 @@ TW:Play()
 local entity = Spawner.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12847684107", -- Can be GitHub file or rbxassetid
-    Speed = 320, -- Percentage, 100 = default Rush speed
+    Speed = 220, -- Percentage, 100 = default Rush speed
     DelayTime = 3, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
@@ -104,6 +104,10 @@ scare.Name = "MyEarsBurn"
 scare.SoundId = "rbxassetid://5567523008"
 scare.PlaybackSpeed = 3
 scare.Volume = 1
+local roomValue = game.ReplicatedStorage.GameData.LatestRoom.Value
+if not ((roomValue >= 50 and roomValue <= 55) or (roomValue >= 96 and roomValue <= 109)) then
+wait()
+if not workspace:FindFirstChild("SeekMovingNewClone") or workspace:FindFirstChild("FigureSetup") then
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanphuc/ygf/refs/heads/main/Rebound"))()
 end
