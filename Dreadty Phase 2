@@ -95,7 +95,7 @@ if v.Character:GetAttribute("Hiding") then
 								end
 						  wait()
 						
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanphuc/gf/refs/heads/main/Dread%20666"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoanphuc/ygf/refs/heads/main/Dreadty%20Phase%202"))()
 
 end
 end
